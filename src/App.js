@@ -1,9 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import{apiUrl , filterData} from "./data";
 
-function App() {
+const App = ()=> {
+
+  
   return (
-    <div>APP</div>
+   <div>
+    <Navbar/>
+
+   <Filter filterData  />
+
+   <Cards/>
+   </div>
   );
 }
 
